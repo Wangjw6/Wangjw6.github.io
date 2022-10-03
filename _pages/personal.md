@@ -12,11 +12,12 @@ author_profile: true
 *  [Undergraduate Wang got B.E. degree in 2016][BE]
 *  [Graduate Wang got M.S. degree in 2019][master1]
 *  [My first accepted paper at Top AI Conference (IJCAI2021)][IJCAI2021]
+*  [Awesome internship in Tencent AI Lab (2021.12-2022.05)][Tecent2021]
 
 [hs1]: https://wangjw6.github.io/images/hs.png
 [UG1]: https://wangjw6.github.io/images/undergraduate.png
 [master1]: https://wangjw6.github.io/images/master.png
 [BE]: https://wangjw6.github.io/images/bachelor.png
 [IJCAI2021]: https://wangjw6.github.io/images/accept.png
-
+[Tecent2021]: https://wangjw6.github.io/images/tencent2021.jpg
 
