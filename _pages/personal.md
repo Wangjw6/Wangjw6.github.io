@@ -11,7 +11,7 @@ author_profile: true
 *  [Undergraduate Wang was struggling in east-campus library of SYSU][UG1]
 *  [Undergraduate Wang got B.E. degree in 2016][BE]
 *  [Graduate Wang got M.S. degree in 2019][master1]
-*  [My first accepted paper at Top AI Conference (IJCAI2021)][IJCAI2021]
+*  [My first paper appeared at Top AI Conference (IJCAI2021)][IJCAI2021]
 *  [Awesome internship in Tencent AI Lab (2021.12-2022.05)][Tecent2021]
 
 [hs1]: https://wangjw6.github.io/images/hs.png
