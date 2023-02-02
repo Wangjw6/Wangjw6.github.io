@@ -13,7 +13,7 @@ author_profile: true
 *  [Graduate Wang got M.S. degree in 2019.6][master1]
 *  Undergraduate Wang got B.E. degree in 2016.6[M][BE]
 *  Undergraduate Wang was struggling in east-campus library of SYSU (2015)[M][UG1]
-*  High-school Wang was enjoying a rest at basketball court (2010) [M][hs1]
+*  High-school Wang was enjoying a rest at basketball court (2010) [@icn-camera][hs1]
 
 [hs1]: https://wangjw6.github.io/images/hs.png
 [UG1]: https://wangjw6.github.io/images/undergraduate.png
