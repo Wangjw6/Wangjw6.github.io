@@ -7,13 +7,13 @@ author_profile: true
  
 ## Memorable Trajectories
 
-*  [3rd place in Transportation Research Board Standing Committee on Artificial Intelligence and Advanced Computing Applications (AED50) Doctoral Dissertation Competition (2023.1)][TRB2023]
-*  [Awesome internship in Tencent AI Lab (2021.12-2022.05)][Tecent2021]
-*  [My first paper appeared at Top AI Conference (IJCAI2021)][IJCAI2021]
-*  [Graduate Wang got M.S. degree in 2019][master1]
-*  [Undergraduate Wang got B.E. degree in 2016][BE]
-*  [Undergraduate Wang was struggling in east-campus library of SYSU][UG1]
-*  [High-school Wang was having a rest at basketball court][hs1]
+*  3rd place in Transportation Research Board Standing Committee on Artificial Intelligence and Advanced Computing Applications (AED50) Doctoral Dissertation Competition (2023.1)[M][TRB2023]
+*  Awesome internship in Tencent AI Lab (2021.12-2022.05)[M][Tecent2021]
+*  My first paper appeared at Top AI Conference (2021.4)[M][IJCAI2021]
+*  [Graduate Wang got M.S. degree in 2019.6][master1]
+*  Undergraduate Wang got B.E. degree in 2016.6[M][BE]
+*  Undergraduate Wang was struggling in east-campus library of SYSU (2015)[M][UG1]
+*  High-school Wang was enjoying a rest at basketball court (2010) [M][hs1]
 
 [hs1]: https://wangjw6.github.io/images/hs.png
 [UG1]: https://wangjw6.github.io/images/undergraduate.png
