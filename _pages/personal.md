@@ -8,7 +8,7 @@ author_profile: true
 ## Memorable Trajectories
 
 *  Luckily won 3rd place in Transportation Research Board Standing Committee on Artificial Intelligence and Advanced Computing Applications (AED50) Doctoral Dissertation Competition (2023.1) [M][TRB2023]
-*  Awesome internship in Tencent AI Lab (2021.12-2022.05) [:bowtie:][Tecent2021]
+*  Awesome internship in Tencent AI Lab (2021.12-2022.05) [🏅][Tecent2021]
 *  My first paper appeared at Top AI Conference (2021.4) [:bowtie][IJCAI2021]
 *  Graduate Wang got M.S. degree (2019.6) [M][master1]
 *  Undergraduate Wang got B.E. degree in (2016.6) [:bowtie][BE]
