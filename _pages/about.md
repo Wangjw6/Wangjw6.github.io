@@ -13,8 +13,6 @@ My current research centers on traffic control with machine learning techniques.
 
 Before arriving at McGill, I got B.E. degree and M.S. degree from the Department of Intelligent Engineering at [Sun Yat-sen University](http://www.sysu.edu.cn/cn/index.htm), Guangzhou, China, where I mainly worked on urban network traffic prediction with deep learning. 
 
-I expect to graduate in Sept 2023 and am looking for academic positions.
-
 
 My research interest
 ======
@@ -34,6 +32,6 @@ Contact
 ------
 jiawei-dot-wang4-at-mcgill-dot-ca
 
-
+Visitor Count
 ------
 ![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
