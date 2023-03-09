@@ -30,7 +30,7 @@ Selected publications
 
 Contact
 ------
-jiawei-dot-wang4-at-mcgill-dot-ca
+jiawei-dot-wang4-at-mail-dot-mcgill-dot-ca
 
 Thanks for visiting
 ------
