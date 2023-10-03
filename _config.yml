@@ -83,7 +83,7 @@ author:
   name             : "Jiawei Wang"
   avatar           : "profile.png"
   bio              : "To go as far as your talent and hardwork would allow"
-  location         : "Montreal, Canada"
+  location         : "Tokyo, Japan"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=Y1gU9wYAAAAJ&hl=zh-CN"
   email            :
@@ -101,7 +101,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "its-jiawei-wang"
   orcid            :  
   pinterest        :
   soundcloud       :
@@ -114,8 +114,8 @@ author:
   xing             :
   youtube          : "/UCduSrJdP1TCNHLI1ZNgzuhQ"
   wikipedia        :
-  zhihu            : "/people/PowerCreativeMind"
-
+  zhihu            : 
+  
 # Reading Files
 include:
   - .htaccess

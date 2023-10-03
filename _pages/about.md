@@ -18,9 +18,10 @@ My research interest
 ======
 * Intelligent transportation systems
 * Traffic control 
-* Public transportation operation  
+* Public transportation operation
+* Urban mobility understanding and optimization
 * Reinforcement learning
-* Machine learning
+* AI for Social Good
 
 Selected publications
 ======
