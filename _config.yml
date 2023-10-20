@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jiawei Wang"
   avatar           : "profile.png"
-  bio              : "To go as far as your talent and hardwork would allow"
+  bio              : #"To go as far as your talent and hardwork would allow"
   location         : "Tokyo, Japan"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=Y1gU9wYAAAAJ&hl=zh-CN"
@@ -112,7 +112,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "/UCduSrJdP1TCNHLI1ZNgzuhQ"
+  youtube          : #"/UCduSrJdP1TCNHLI1ZNgzuhQ"
   wikipedia        :
   zhihu            : 
   
