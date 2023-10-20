@@ -7,12 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-I am a fourth-year Ph.D. student of transportation at the Department of Civil Engineering, [McGill University](https://www.mcgill.ca/engineering/).  I am now working in [Smart Transport Group](https://smart-transport.github.io/) supervised by [Prof Lijun Sun](https://lijunsun.github.io/). 
-My current research centers on traffic control with machine learning techniques.   
-
-Before arriving at McGill, I got B.E. degree and M.S. degree from the Department of Intelligent Engineering at [Sun Yat-sen University](http://www.sysu.edu.cn/cn/index.htm), Guangzhou, China, where I mainly worked on urban network traffic prediction with deep learning. 
-
+Jiawei Wang now is a postdoctoral researcher in [Center for Spatial Information Science, The University of Tokyo](http://www.csis.u-tokyo.ac.jp/english/). Wang received his PhD degree in Civil Engineering (Transportation) from [McGill University](https://www.mcgill.ca/engineering/), supervised by [Prof Lijun Sun](https://lijunsun.github.io/). 
+During his PhD, he worked on traffic control with machine learning techniques, especially on how to address bus bunching through multi-agent reinforcement learning. Before arriving at McGill, he received his B.E. and M.S. degrees from the Department of Intelligent Engineering at [Sun Yat-sen University](http://www.sysu.edu.cn/cn/index.htm), Guangzhou, China, where he mainly worked on urban network traffic prediction with deep learning.
 
 My research interest
 ======
