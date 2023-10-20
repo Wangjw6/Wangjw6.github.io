@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 Jiawei Wang now is a postdoctoral researcher in [Center for Spatial Information Science, The University of Tokyo](http://www.csis.u-tokyo.ac.jp/english/). Wang received his PhD degree in Civil Engineering (Transportation) from [McGill University](https://www.mcgill.ca/engineering/), supervised by [Prof Lijun Sun](https://lijunsun.github.io/). 
-During his PhD, he worked on traffic control with machine learning techniques, especially on how to address bus bunching through multi-agent reinforcement learning. Before arriving at McGill, he received his B.E. and M.S. degrees from the Department of Intelligent Engineering at [Sun Yat-sen University](http://www.sysu.edu.cn/cn/index.htm), Guangzhou, China, where he mainly worked on urban network traffic prediction with deep learning.
+During his PhD, he worked on traffic control with machine learning techniques, especially on how to address bus bunching through multi-agent reinforcement learning. He received his B.E. and M.S. degrees from the Department of Intelligent Engineering at [Sun Yat-sen University](http://www.sysu.edu.cn/cn/index.htm), Guangzhou, China, where he mainly worked on urban network traffic prediction with deep learning.
 
 My research interest
 ======
