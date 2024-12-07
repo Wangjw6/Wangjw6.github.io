@@ -12,15 +12,13 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 
 ### **Research Interests**
 
-#### **1. Data-Driven Traffic Understanding**
+#### **Data-Driven Traffic Understanding**
 My research utilizes advanced data analytics and machine learning techniques to deepen our understanding of traffic dynamics and behaviors across both macroscopic and microscopic scales:
-##### 1.1 **Macroscopic Traffic Flow Prediction**  
-- Developed models to predict traffic flow at a network level, supporting better urban mobility planning and congestion management.  
+##### **Macroscopic Traffic Flow Prediction**   
 - **Related Publications**:  
   - Wang J, Chen R, He Z. [Traffic speed prediction for urban transportation network: A path-based deep learning approach](https://www.sciencedirect.com/science/article/pii/S0968090X1831043X). *Transportation Research Part C: Emerging Technologies*, 2019, 100: 372–385.
 
-1.2 **Microscopic Activity Analysis**  
-- **Activity Generation**: Simulated individual travel behaviors to uncover urban mobility patterns.  
+##### **Microscopic Activity Generation**  
   - **Related Publications**:  
     - Wang J, Jiang R, Yang C, et al. [Large language models as urban residents: An LLM agent framework for personal mobility generation](https://arxiv.org/abs/2402.14744). *NeurIPS 2024*.  
 
@@ -30,21 +28,21 @@ My research utilizes advanced data analytics and machine learning techniques to 
 
 ---
 
-##### **2. Reinforcement Learning-Based Traffic Optimization**
+#### **Reinforcement Learning-Based Traffic Optimization**
 My research explores novel RL based solution for traditional traffic control problem:
-2.1 **Single-Agent RL Applications**  
+##### **Single-Agent RL Applications**  
 - **Metro Passenger Inflow Control**: Designed hierarchical RL frameworks to regulate passenger inflow in metro systems, alleviating congestion and improving service reliability.  
   - **Related Publications**:  
     - Zhong J, He Z, Wang J, et al. [A hierarchical framework for passenger inflow control in metro systems using reinforcement learning](https://ieeexplore.ieee.org/abstract/document/10127612/). *IEEE Transactions on Intelligent Transportation Systems*, 2023, 24(10): 10895–10911.
 
-2.2 **Multi-Agent Reinforcement Learning (MARL) Applications**  
+##### **Multi-Agent Reinforcement Learning (MARL) Applications**  
 
-2.2.1 **Online Taxi Management**  
+###### **Online Taxi Management**  
 - Leveraged MARL to optimize taxi dispatch and routing for electric vehicles, enhancing operational efficiency through intelligent rebalancing, charging, and order assignment.  
   - **Related Publications**:  
     - Wang J, Cai H, Sun L, et al. [MERCI: Multi-agent reinforcement learning for enhancing on-demand electric taxi operations](https://www.sciencedirect.com/science/article/pii/S0360835224008337). *Computers & Industrial Engineering*, 2024: 110711.
 
-2.2.2 **Public Transit Fleet Vehicle Control**  
+###### **Public Transit Fleet Vehicle Control**  
 - Developed efficient and robust MARL-based frameworks for real-time bus holding strategies to reduce bus bunching and enhance multi-line transit service performance:  
   - **Related Publications**:  
     - Wang J, Sun L. [Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework](https://www.sciencedirect.com/science/article/pii/S0968090X20305763). *Transportation Research Part C: Emerging Technologies*, 2020, 116: 102661.  
