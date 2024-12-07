@@ -17,7 +17,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 <details>
 <summary><b>(Macroscopic) Traffic Flow Prediction</b></summary>
 
-**Wang J, Chen R, He Z.**  
+**Wang J**, Chen R, He Z. 
 **Traffic speed prediction for urban transportation network: A path-based deep learning approach.**  
 *Transportation Research Part C: Emerging Technologies*, 2019, 100: 372–385.
 
@@ -26,7 +26,11 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 
 <details>
 <summary>(Microscopic) Daily Activity Generation</summary>
-Wang J, Jiang R, Yang C, et al. **Large language models as urban residents: An LLM agent framework for personal mobility generation**. NeurIPS, 2024.  
+
+**Wang J**, Jiang R, Yang C, et al. 
+**Large language models as urban residents: An LLM agent framework for personal mobility generation**. 
+*NeurIPS*, 2024.  
+
 </details>
 
 <details>
