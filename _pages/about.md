@@ -69,9 +69,12 @@ Cai H, **Wang J**\*, Li B, et al.
 
    - **Wang J**, Sun L. **Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework**. *Transportation Research Part C: Emerging Technologies*, 2020, 116: 102661.  
    
+   
    - **Wang J**, Sun L. **Reducing bus bunching with asynchronous multi-agent reinforcement learning**. IJCAI 2021.  
    
+   
    - **Wang J**, Sun L. **Robust dynamic bus control: A distributional multi-agent reinforcement learning approach**. *IEEE Transactions on Intelligent Transportation Systems*, 2022, 24(4): 4075–4088.  
+   
    
    - **Wang J**, Sun L. **Multi-objective multi-agent deep reinforcement learning to reduce bus bunching for multi-line services with a shared corridor**. *Transportation Research Part C: Emerging Technologies*, 2023, 155: 104309.  
 </details> 
