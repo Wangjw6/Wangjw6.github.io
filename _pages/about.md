@@ -44,7 +44,7 @@ Cai H, **Wang J**\*, Li B, et al.
 
 ---
 
-### **Reinforcement Learning-based Traffic Optimization**
+### $\color{#37a55a}{Reinforcement}$ $\color{#37a55a}{Learning-based}$ $\color{#37a55a}{Traffic}$ $\color{#37a55a}{Optimization:}$
 <details>
 <summary>Automated Driving</summary>
 
