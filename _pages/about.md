@@ -10,15 +10,14 @@ redirect_from:
 Jiawei Wang now is a postdoctoral researcher in [Center for Spatial Information Science, The University of Tokyo](http://www.csis.u-tokyo.ac.jp/english/). Wang received his PhD degree in Civil Engineering (Transportation) from [McGill University](https://www.mcgill.ca/engineering/), supervised by [Prof Lijun Sun](https://lijunsun.github.io/). 
 During his PhD, he worked on traffic control with machine learning techniques, especially on [how to address bus bunching through multi-agent reinforcement learning](https://transitgym.github.io/). He received his B.E. and M.S. degrees from the Department of Intelligent Engineering at [Sun Yat-sen University](http://www.sysu.edu.cn/cn/index.htm), Guangzhou, China, where he mainly worked on urban network traffic prediction with deep learning.
 
-### **Research Interests**
+## **Research Interests**
 
-#### **Data-Driven Traffic Understanding**
-My research utilizes advanced data analytics and machine learning techniques to deepen our understanding of traffic dynamics and behaviors across both macroscopic and microscopic scales:
-##### **Macroscopic Traffic Flow Prediction**   
+### **Data-Driven Traffic Understanding**
+**Macroscopic Traffic Flow Prediction**   
 - **Related Publications**:  
   - Wang J, Chen R, He Z. [Traffic speed prediction for urban transportation network: A path-based deep learning approach](https://www.sciencedirect.com/science/article/pii/S0968090X1831043X). *Transportation Research Part C: Emerging Technologies*, 2019, 100: 372–385.
 
-##### **Microscopic Activity Generation**  
+**Microscopic Activity Generation**  
   - **Related Publications**:  
     - Wang J, Jiang R, Yang C, et al. [Large language models as urban residents: An LLM agent framework for personal mobility generation](https://arxiv.org/abs/2402.14744). *NeurIPS 2024*.  
 
@@ -28,21 +27,20 @@ My research utilizes advanced data analytics and machine learning techniques to 
 
 ---
 
-#### **Reinforcement Learning-Based Traffic Optimization**
-My research explores novel RL based solution for traditional traffic control problem:
-##### **Single-Agent RL Applications**  
+### **Reinforcement Learning-Based Traffic Optimization**
+**Single-Agent RL Applications**  
 - **Metro Passenger Inflow Control**: Designed hierarchical RL frameworks to regulate passenger inflow in metro systems, alleviating congestion and improving service reliability.  
   - **Related Publications**:  
     - Zhong J, He Z, Wang J, et al. [A hierarchical framework for passenger inflow control in metro systems using reinforcement learning](https://ieeexplore.ieee.org/abstract/document/10127612/). *IEEE Transactions on Intelligent Transportation Systems*, 2023, 24(10): 10895–10911.
 
-##### **Multi-Agent Reinforcement Learning (MARL) Applications**  
+**Multi-Agent Reinforcement Learning (MARL) Applications**  
 
-###### **Online Taxi Management**  
+**Online Taxi Management**  
 - Leveraged MARL to optimize taxi dispatch and routing for electric vehicles, enhancing operational efficiency through intelligent rebalancing, charging, and order assignment.  
   - **Related Publications**:  
     - Wang J, Cai H, Sun L, et al. [MERCI: Multi-agent reinforcement learning for enhancing on-demand electric taxi operations](https://www.sciencedirect.com/science/article/pii/S0360835224008337). *Computers & Industrial Engineering*, 2024: 110711.
 
-###### **Public Transit Fleet Vehicle Control**  
+**Public Transit Fleet Vehicle Control**  
 - Developed efficient and robust MARL-based frameworks for real-time bus holding strategies to reduce bus bunching and enhance multi-line transit service performance:  
   - **Related Publications**:  
     - Wang J, Sun L. [Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework](https://www.sciencedirect.com/science/article/pii/S0968090X20305763). *Transportation Research Part C: Emerging Technologies*, 2020, 116: 102661.  
