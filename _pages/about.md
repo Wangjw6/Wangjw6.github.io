@@ -44,7 +44,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 
 ### $\color{#00008b}{\text{Reinforcement}}$ $\color{#00008b}{\text{Learning-based}}$ $\color{#00008b}{\text{Traffic}}$ $\color{#00008b}{\text{Optimization:}}$
 <details>
-<summary>Automated Driving</summary>
+<summary>Autonomous Vehicle</summary>
 
 <p><b>Wang J</b>, Shi T, Wu Y, et al. 
 <b>Multi-agent graph reinforcement learning for connected automated driving.</b><br>
