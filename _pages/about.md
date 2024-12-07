@@ -71,7 +71,7 @@ redirect_from:
 Jiawei Wang now is a postdoctoral researcher in [Center for Spatial Information Science, The University of Tokyo](http://www.csis.u-tokyo.ac.jp/english/). Wang received his PhD degree in Civil Engineering (Transportation) from [McGill University](https://www.mcgill.ca/engineering/), supervised by [Prof Lijun Sun](https://lijunsun.github.io/). 
 During his PhD, he worked on traffic control with machine learning techniques, especially on [how to address bus bunching through multi-agent reinforcement learning](https://transitgym.github.io/). He received his B.E. and M.S. degrees from the Department of Intelligent Engineering at [Sun Yat-sen University](http://www.sysu.edu.cn/cn/index.htm), Guangzhou, China, where he mainly worked on urban network traffic prediction with deep learning.
 
-## **Research Interests**
+## Research Interests
 
 ### Data-Driven Traffic Understanding
 
@@ -83,8 +83,8 @@ During his PhD, he worked on traffic control with machine learning techniques, e
   - **Daily Activity Generation**:  
     - Wang J, Jiang R, Yang C, et al. [Large language models as urban residents: An LLM agent framework for personal mobility generation](https://arxiv.org/abs/2402.14744). *NeurIPS 2024*.  
 
-- **Taxi Behavior Motivation Inference**
-   - Cai H, Wang J, Li B, et al. [Understanding the daily operations of electric taxis: From macro-patterns to micro-behaviors](https://www.sciencedirect.com/science/article/pii/S1361920924000361). *Transportation Research Part D: Transport and Environment*, 2024, 128: 104079.
+- **Taxi Behavior Analysis**
+   - Cai H, Wang J*, Li B, et al. [Understanding the daily operations of electric taxis: From macro-patterns to micro-behaviors](https://www.sciencedirect.com/science/article/pii/S1361920924000361). *Transportation Research Part D: Transport and Environment*, 2024, 128: 104079.
 
 ---
 
@@ -102,6 +102,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
    - Wang J, Sun L. [Multi-objective multi-agent deep reinforcement learning to reduce bus bunching for multi-line services with a shared corridor](https://www.sciencedirect.com/science/article/pii/S0968090X2300298X). *Transportation Research Part C: Emerging Technologies*, 2023, 155: 104309.  
 
 For complete publication list, please check my [googole scholar](https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ&view_op=list_works&sortby=pubdate)
+
 Contact
 ------
 jiawei-dot-wang4-at-mail-dot-mcgill-dot-ca
