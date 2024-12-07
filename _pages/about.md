@@ -86,6 +86,6 @@ Contact
 ------
 jiawei-dot-wang4-at-mail-dot-mcgill-dot-ca
 
-Thanks for visiting
+Visitors since 2022
 ------
 ![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
