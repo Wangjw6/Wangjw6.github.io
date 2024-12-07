@@ -19,3 +19,11 @@ summary:hover {
 details[open] summary {
     color: #0056b3;
 }
+
+
+details p, details b, details i {
+  margin: 0.5em 0;
+  font-size: 1em;
+  color: #333;
+  line-height: 1.5;
+}
