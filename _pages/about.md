@@ -22,7 +22,7 @@ Wang J, Chen R, He Z. [Traffic speed prediction for urban transportation network
 **Microscopic view**  
 <details>
 <summary>Daily Activity Generation</summary>
-Wang J, Jiang R, Yang C, et al. [Large language models as urban residents: An LLM agent framework for personal mobility generation](https://arxiv.org/abs/2402.14744). *NeurIPS 2024*.  
+Wang J, Jiang R, Yang C, et al. [Large language models as urban residents: An LLM agent framework for personal mobility generation](https://arxiv.org/abs/2402.14744). *NeurIPS*, 2024.  
  </details>
 
 <details>
@@ -35,7 +35,7 @@ Wang J, Jiang R, Yang C, et al. [Large language models as urban residents: An LL
 ### **Reinforcement Learning-based Traffic Optimization**
 <details>
 <summary>Automated Driving</summary>
-Wang J, Shi T, Wu Y, et al. [[Multi-agent graph reinforcement learning for connected automated driving](https://arxiv.org/abs/2007.02794). *ICML Workshop on AI for Autonomous Driving (AIAD), 2020*.
+Wang J, Shi T, Wu Y, et al. [[Multi-agent graph reinforcement learning for connected automated driving](https://arxiv.org/abs/2007.02794). *ICML Workshop on AI for Autonomous Driving (AIAD)*, 2020.
 </details> 
 
 <details>
