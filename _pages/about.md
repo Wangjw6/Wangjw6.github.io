@@ -65,16 +65,16 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 <details>
 <summary>Public Transit Fleet Vehicle</summary>
 
-    <p>-<b>Wang J</b>, Sun L. <b>Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework.</b><br> <i>Transportation Research Part C: Emerging Technologies</i>, 2020, 116: 102661.</p>  
+    <p><b>Wang J</b>, Sun L. <b>Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework.</b><br> <i>Transportation Research Part C: Emerging Technologies</i>, 2020, 116: 102661.</p>  
    
    
-   <p>-<b>Wang J</b>, Sun L. <b>Reducing bus bunching with asynchronous multi-agent reinforcement learning.</b><br> <i>IJCAI</i> 2021.</p>  
+   <p><b>Wang J</b>, Sun L. <b>Reducing bus bunching with asynchronous multi-agent reinforcement learning.</b><br> <i>IJCAI</i> 2021.</p>  
    
    
-   <p>-<b>Wang J</b>, Sun L. <b>Robust dynamic bus control: A distributional multi-agent reinforcement learning approach.</b><br> <i>IEEE Transactions on Intelligent Transportation Systems</i>, 2022, 24(4): 4075–4088.</p>  
+   <p><b>Wang J</b>, Sun L. <b>Robust dynamic bus control: A distributional multi-agent reinforcement learning approach.</b><br> <i>IEEE Transactions on Intelligent Transportation Systems</i>, 2022, 24(4): 4075–4088.</p>  
    
    
-   <p>-<b>Wang J</b>, Sun L. <b>Multi-objective multi-agent deep reinforcement learning to reduce bus bunching for multi-line services with a shared corridor.</b><br> <i>Transportation Research Part C: Emerging Technologies</i>, 2023, 155: 104309.</p>  
+   <p><b>Wang J</b>, Sun L. <b>Multi-objective multi-agent deep reinforcement learning to reduce bus bunching for multi-line services with a shared corridor.</b><br> <i>Transportation Research Part C: Emerging Technologies</i>, 2023, 155: 104309.</p>  
 </details> 
 
 
