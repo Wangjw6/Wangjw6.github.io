@@ -45,6 +45,7 @@ Wang J, Shi T, Wu Y, et al. [[Multi-agent graph reinforcement learning for conne
 
 <details>
 <summary>Public Transit Fleet Vehicle</summary>
+
    - Wang J, Sun L. [Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework](https://www.sciencedirect.com/science/article/pii/S0968090X20305763). *Transportation Research Part C: Emerging Technologies*, 2020, 116: 102661.  
    
    - Wang J, Sun L. [Reducing bus bunching with asynchronous multi-agent reinforcement learning](https://arxiv.org/abs/2105.00376). *IJCAI 2021*.  
