@@ -12,7 +12,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 
 # Research Interests
 
-### $\color{#37a55a}{Data/AI\text{-}Driven}$ $\color{#37a55a}{Traffic}$ $\color{#37a55a}{Analysis:}$
+### $\color{#00008b}{Data/AI\text{-}Driven}$ $\color{#00008b}{Traffic}$ $\color{#00008b}{Analysis:}$
 
 <details>
 <summary><b>(Macroscopic) Traffic Flow Prediction</b></summary>
@@ -42,7 +42,7 @@ Cai H, **Wang J**\*, Li B, et al.
 
 ---
 
-### $\color{#37a55a}{Reinforcement}$ $\color{#37a55a}{Learning\text{-}based}$ $\color{#37a55a}{Traffic}$ $\color{#37a55a}{Optimization:}$
+### $\color{#00008b}{Reinforcement}$ $\color{#00008b}{Learning\text{-}based}$ $\color{#00008b}{Traffic}$ $\color{#00008b}{Optimization:}$
 <details>
 <summary>Automated Driving</summary>
 
