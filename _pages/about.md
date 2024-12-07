@@ -15,7 +15,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 ### Data-Driven Traffic Understanding
 
 <details>
-<summary><b>(Macroscopic) Traffic Flow Prediction</b></summary>
+<summary>(Macroscopic) Traffic Flow Prediction</summary>
 
 **Wang J**, Chen R, He Z. 
 **Traffic speed prediction for urban transportation network: A path-based deep learning approach.**  
