@@ -27,7 +27,7 @@ Wang J, Jiang R, Yang C, et al. [Large language models as urban residents: An LL
  </details>
 
 <details>
-<summary>Taxi Behavior Analysis</summary>
+<summary>(Microscopic) Taxi Behavior Analysis</summary>
  Cai H, Wang J*, Li B, et al. [Understanding the daily operations of electric taxis: From macro-patterns to micro-behaviors](https://www.sciencedirect.com/science/article/pii/S1361920924000361). Transportation Research Part D: Transport and Environment, 2024, 128: 104079
 </details> 
 
