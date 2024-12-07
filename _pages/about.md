@@ -11,24 +11,12 @@ Jiawei Wang now is a postdoctoral researcher in [Center for Spatial Information 
 During his PhD, he worked on traffic control with machine learning techniques, especially on [how to address bus bunching through multi-agent reinforcement learning](https://transitgym.github.io/). He received his B.E. and M.S. degrees from the Department of Intelligent Engineering at [Sun Yat-sen University](http://www.sysu.edu.cn/cn/index.htm), Guangzhou, China, where he mainly worked on urban network traffic prediction with deep learning.
 
 ### **My research interest**
-======
-* Intelligent transportation systems
-* Traffic control 
-* Public transportation operation
-* Urban mobility understanding and optimization
-* Reinforcement learning
-* AI for Social Good
-
-
-======
-### **My research map**
-
-#### **1. Data-Driven Traffic Understanding**
+#### **Data-Driven Traffic Understanding**
 Leveraging data analytics and machine learning, my research has advanced the understanding of traffic dynamics and behaviors across macroscopic and microscopic scales:
 
 1.1 **Macroscopic Traffic Flow Prediction**:  
 - Developed models to predict traffic flow at the network level, enabling improved urban mobility planning and congestion mitigation.  
-- **Publications**:  
+- **Related Publications**:  
   - Wang J, Chen R, He Z. Traffic speed prediction for urban transportation network: A path based deep learning approach[J]. Transportation Research Part C: Emerging Technologies, 2019, 100: 372-385.
   
 1.2 **Microscopic Activity Analysis**:  
@@ -40,7 +28,7 @@ Leveraging data analytics and machine learning, my research has advanced the und
 	- Cai H, Wang J, Li B, et al. Understanding the daily operations of electric taxis from macro-patterns to micro-behaviors[J]. Transportation Research Part D: Transport and Environment, 2024, 128: 104079.
 ---
 
-#### **2. Reinforcement Learning-Based Traffic Optimization**
+#### **Reinforcement Learning-Based Traffic Optimization**
 My work focuses on using reinforcement learning (RL) techniques to optimize various aspects of traffic systems:
 
 2.1 **Single-Agent RL based research**:  
