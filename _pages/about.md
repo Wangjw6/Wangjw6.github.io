@@ -79,6 +79,7 @@ Cai H, **Wang J**\*, Li B, et al.
    - **Wang J**, Sun L. **Multi-objective multi-agent deep reinforcement learning to reduce bus bunching for multi-line services with a shared corridor**. *Transportation Research Part C: Emerging Technologies*, 2023, 155: 104309.  
 </details> 
 
+
 For complete publication list, please check my [googole scholar](https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ&view_op=list_works&sortby=pubdate)
 
 Contact
