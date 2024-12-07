@@ -15,9 +15,13 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 ### Data-Driven Traffic Understanding
 
 <details>
-<summary>(Macroscopic) Traffic Flow Prediction</summary>
-Wang J, Chen R, He Z. **Traffic speed prediction for urban transportation network: A path-based deep learning approach**. Transportation Research Part C: Emerging Technologies, 2019, 100: 372–385.
-</details>
+<summary><b>(Macroscopic) Traffic Flow Prediction</b></summary>
+
+**Wang J, Chen R, He Z.**  
+**Traffic speed prediction for urban transportation network: A path-based deep learning approach.**  
+*Transportation Research Part C: Emerging Technologies*, 2019, 100: 372–385.
+
+</details
 
 
 <details>
