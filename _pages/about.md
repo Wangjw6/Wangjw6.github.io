@@ -21,7 +21,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 **Traffic speed prediction for urban transportation network: A path-based deep learning approach.**  
 *Transportation Research Part C: Emerging Technologies*, 2019, 100: 372–385.
 
-</details
+</details>
 
 
 <details>
