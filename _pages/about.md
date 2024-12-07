@@ -12,7 +12,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 
 ## Research Interests
 
-### Data-Driven Traffic Understanding
+### $\color{#37a55a}{Data-Driven Traffic Understanding:}$
 
 <details>
 <summary>(Macroscopic) Traffic Flow Prediction</summary>
