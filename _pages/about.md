@@ -44,7 +44,7 @@ My work focuses on using reinforcement learning (RL) techniques to optimize vari
 	- Wang J, Cai H, Sun L, et al. MERCI: Multi-agent reinforcement learning for enhancing on-demand Electric taxi operation in terms of Rebalancing, Charging, and Informing Orders[J]. Computers & Industrial Engineering, 2024: 110711.
 
 2.2.2 **Public Transit Fleet Vehicle Control**:  
-- Developed MARL-based strategies to coordinate public transit vehicle operations to avoid bus bunching by real-time bus holding.  
+- Developed **Efficient** and **Robust** MARL-based strategies to coordinate **Asychronous** public transit vehicle operations to avoid bus bunching by real-time bus holding.  
 - **Related Publications**:  
   - Wang J, Sun L. Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework[J]. Transportation Research Part C: Emerging Technologies, 2020, 116: 102661.
   - Wang J, Sun L. Reducing bus bunching with asynchronous multi-agent reinforcement learning[J]. IJCAI 2021.
