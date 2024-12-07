@@ -14,8 +14,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 
 #### **1. Data-Driven Traffic Understanding**
 My research utilizes advanced data analytics and machine learning techniques to deepen our understanding of traffic dynamics and behaviors across both macroscopic and microscopic scales:
-
-1.1 **Macroscopic Traffic Flow Prediction**  
+##### 1.1 **Macroscopic Traffic Flow Prediction**  
 - Developed models to predict traffic flow at a network level, supporting better urban mobility planning and congestion management.  
 - **Related Publications**:  
   - Wang J, Chen R, He Z. [Traffic speed prediction for urban transportation network: A path-based deep learning approach](https://www.sciencedirect.com/science/article/pii/S0968090X1831043X). *Transportation Research Part C: Emerging Technologies*, 2019, 100: 372–385.
@@ -31,9 +30,8 @@ My research utilizes advanced data analytics and machine learning techniques to 
 
 ---
 
-#### **2. Reinforcement Learning-Based Traffic Optimization**
-I employ reinforcement learning (RL) to optimize the operations and management of traffic systems, focusing on single-agent and multi-agent scenarios:
-
+##### **2. Reinforcement Learning-Based Traffic Optimization**
+My research explores novel RL based solution for traditional traffic control problem:
 2.1 **Single-Agent RL Applications**  
 - **Metro Passenger Inflow Control**: Designed hierarchical RL frameworks to regulate passenger inflow in metro systems, alleviating congestion and improving service reliability.  
   - **Related Publications**:  
