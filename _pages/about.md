@@ -25,18 +25,18 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 <details>
 <summary>(Microscopic) Daily Activity Generation</summary>
 
-**Wang J**, Jiang R, Yang C, et al. 
-**Large language models as urban residents: An LLM agent framework for personal mobility generation**. 
-*NeurIPS*, 2024.  
+<p><b>Wang J</b>, Jiang R, Yang C, et al. 
+<b>Large language models as urban residents: An LLM agent framework for personal mobility generation.</b><br>
+<i>NeurIPS</i>, 2024.</p>  
 
 </details>
 
 <details>
 <summary>(Microscopic) Taxi Behavior Analysis</summary>
 
-Cai H, **Wang J**\*, Li B, et al. 
-**Understanding the daily operations of electric taxis: From macro-patterns to micro-behaviors**. 
-*Transportation Research Part D: Transport and Environment*, 2024, 128: 104079.
+<p>Cai H, <b>Wang J*</b>, Li B, et al. 
+<b>Understanding the daily operations of electric taxis: From macro-patterns to micro-behaviors.</b><br>
+<i>Transportation Research Part D: Transport and Environment</i>, 2024, 128: 104079.</p>
 
 </details> 
 
@@ -46,18 +46,18 @@ Cai H, **Wang J**\*, Li B, et al.
 <details>
 <summary>Automated Driving</summary>
 
-**Wang J**, Shi T, Wu Y, et al. 
-**Multi-agent graph reinforcement learning for connected automated driving**. 
-*ICML Workshop on AI for Autonomous Driving (AIAD)*, 2020.
+<p><b>Wang J</b>, Shi T, Wu Y, et al. 
+<b>Multi-agent graph reinforcement learning for connected automated driving.</b><br>
+<i>ICML Workshop on AI for Autonomous Driving (AIAD)</i>, 2020.</p>
 
 </details> 
 
 <details>
 <summary>Online Taxi Management</summary>
 
-**Wang J **, Cai H, Sun L, et al. 
-**MERCI: Multi-agent reinforcement learning for enhancing on-demand electric taxi operations**. 
-*Computers & Industrial Engineering*, 2024: 110711.
+<p><b>Wang J</b>, Cai H, Sun L, et al. 
+<b>MERCI: Multi-agent reinforcement learning for enhancing on-demand electric taxi operations.</b><br>
+<i>Computers & Industrial Engineering</i>, 2024: 110711.</p>
  
 </details> 
 
