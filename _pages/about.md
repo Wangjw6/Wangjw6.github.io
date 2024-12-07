@@ -12,7 +12,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 
 # Research Interests
 
-### $\color{#00008b}{Data/AI\text{-}Driven}$ $\color{#00008b}{Traffic}$ $\color{#00008b}{Analysis:}$
+### $\color{#00008b}{\text{Data/AI-Driven}}$ $\color{#00008b}{\text{Traffic}}$ $\color{#00008b}{\text{Analysis:}}$
 
 <details>
 <summary><b>(Macroscopic) Traffic Flow Prediction</b></summary>
@@ -42,7 +42,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 
 ---
 
-### $\color{#00008b}{Reinforcement}$ $\color{#00008b}{Learning\text{-}based}$ $\color{#00008b}{Traffic}$ $\color{#00008b}{Optimization:}$
+### $\color{#00008b}{\text{Reinforcement}}$ $\color{#00008b}{\text{Learning-based}}$ $\color{#00008b}{\text{Traffic}}$ $\color{#00008b}{\text{Optimization:}}$
 <details>
 <summary>Automated Driving</summary>
 
