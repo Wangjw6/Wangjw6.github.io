@@ -59,7 +59,7 @@ Cai H, **Wang J**\*, Li B, et al.
 
 **Wang J **, Cai H, Sun L, et al. 
 **MERCI: Multi-agent reinforcement learning for enhancing on-demand electric taxi operations**. 
-*Computers & Industrial Engineering *, 2024: 110711.
+*Computers & Industrial Engineering*, 2024: 110711.
  
 </details> 
 
