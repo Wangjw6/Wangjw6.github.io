@@ -78,7 +78,7 @@ During his PhD, he worked on traffic control with machine learning techniques, e
 </details> 
 
 
-For complete publication list, please check my [googole scholar](https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ&view_op=list_works&sortby=pubdate)
+For complete publication list, please check my [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ&view_op=list_works&sortby=pubdate)
 
 Contact
 ------
