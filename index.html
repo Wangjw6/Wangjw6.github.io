@@ -1,618 +1,389 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jiawei Wang</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jiawei Wang | Generative Intelligent Transportation</title>
     <meta
       name="description"
-      content="Jiawei Wang | AI for Transportation | Generative Intelligent Transportation"
+      content="Jiawei Wang is an incoming Assistant Professor at HKUST(GZ) building Generative Intelligent Transportation systems."
     />
-    <style>
-      :root {
-        --bg: #fafafa;
-        --surface: #ffffff;
-        --text: #111827;
-        --muted: #6b7280;
-        --line: #e5e7eb;
-        --soft: #f3f4f6;
-        --accent: #0f172a;
-      }
-
-      * { box-sizing: border-box; }
-
-      html { scroll-behavior: smooth; }
-
-      body {
-        margin: 0;
-        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        background: var(--bg);
-        color: var(--text);
-        line-height: 1.65;
-      }
-
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      img {
-        display: block;
-        max-width: 100%;
-      }
-
-      .topbar {
-        position: sticky;
-        top: 0;
-        z-index: 20;
-        background: rgba(255, 255, 255, 0.88);
-        backdrop-filter: blur(10px);
-        border-bottom: 1px solid var(--line);
-      }
-
-      .topbar-inner,
-      .layout {
-        max-width: 1180px;
-        margin: 0 auto;
-        padding: 0 24px;
-      }
-
-      .topbar-inner {
-        height: 68px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-
-      .brand {
-        font-size: 1.1rem;
-        font-weight: 700;
-        letter-spacing: -0.02em;
-      }
-
-      .nav {
-        display: flex;
-        gap: 24px;
-        color: var(--muted);
-        font-size: 0.95rem;
-      }
-
-      .nav a:hover { color: var(--text); }
-
-      .layout {
-        display: grid;
-        grid-template-columns: 300px minmax(0, 1fr);
-        gap: 40px;
-        padding-top: 40px;
-        padding-bottom: 56px;
-      }
-
-      .sidebar {
-        position: sticky;
-        top: 92px;
-        align-self: start;
-      }
-
-      .card,
-      .section {
-        background: var(--surface);
-        border: 1px solid var(--line);
-        border-radius: 28px;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.04);
-      }
-
-      .profile-photo {
-        width: 100%;
-        aspect-ratio: 4 / 5;
-        object-fit: cover;
-        object-position: center;
-        border-top-left-radius: 28px;
-        border-top-right-radius: 28px;
-      }
-
-      .profile-body {
-        padding: 24px;
-      }
-
-      .name {
-        margin: 0;
-        font-size: 2rem;
-        line-height: 1.1;
-        letter-spacing: -0.04em;
-      }
-
-      .title {
-        margin-top: 10px;
-        font-size: 1rem;
-        color: #374151;
-      }
-
-      .org {
-        margin-top: 4px;
-        font-size: 0.92rem;
-        color: var(--muted);
-      }
-
-      .meta {
-        margin-top: 18px;
-        color: #4b5563;
-        font-size: 0.94rem;
-      }
-
-      .meta p {
-        margin: 0 0 6px;
-      }
-
-      .keywords {
-        margin-top: 18px;
-        padding: 14px 16px;
-        border-radius: 18px;
-        background: var(--soft);
-        font-size: 0.93rem;
-        color: #374151;
-      }
-
-      .keywords strong {
-        display: block;
-        margin-bottom: 6px;
-        color: var(--text);
-      }
-
-      .links {
-        margin-top: 18px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-
-      .pill {
-        padding: 8px 12px;
-        border: 1px solid #d1d5db;
-        border-radius: 999px;
-        font-size: 0.9rem;
-        color: #374151;
-      }
-
-      .pill:hover { background: var(--soft); }
-
-      .content {
-        display: flex;
-        flex-direction: column;
-        gap: 28px;
-      }
-
-      .section {
-        padding: 30px;
-      }
-
-      .section h2 {
-        margin: 0;
-        font-size: 1.75rem;
-        line-height: 1.15;
-        letter-spacing: -0.03em;
-      }
-
-      .section-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 16px;
-      }
-
-      .section-note {
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-
-      .about p {
-        margin: 16px 0 0;
-        font-size: 0.98rem;
-        color: #374151;
-      }
-
-      .news-list,
-      .timeline,
-      .research-groups {
-        margin-top: 22px;
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-      }
-
-      .news-item,
-      .timeline-item,
-      .paper {
-        border: 1px solid #edf0f2;
-        border-radius: 20px;
-        padding: 16px 18px;
-      }
-
-      .news-item {
-        display: grid;
-        grid-template-columns: 86px minmax(0, 1fr);
-        gap: 14px;
-      }
-
-      .date {
-        color: var(--muted);
-        font-size: 0.9rem;
-        font-weight: 600;
-      }
-
-      .news-item p,
-      .timeline-item p,
-      .paper p {
-        margin: 0;
-        color: #374151;
-      }
-
-      .group {
-        border: 1px solid #edf0f2;
-        border-radius: 22px;
-        padding: 22px;
-      }
-
-      .group h3 {
-        margin: 0;
-        font-size: 1.2rem;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
-      }
-
-      .group-subtitle {
-        margin-top: 8px;
-        color: var(--muted);
-        font-size: 0.96rem;
-      }
-
-      .papers {
-        margin-top: 18px;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-      }
-
-      .paper-title {
-        font-size: 1.03rem;
-        font-weight: 600;
-        color: var(--text);
-      }
-
-      .paper-venue {
-        margin-top: 4px;
-        color: var(--muted);
-        font-size: 0.9rem;
-        font-weight: 600;
-      }
-
-      .paper-authors {
-        margin-top: 6px;
-        font-size: 0.92rem;
-        color: #4b5563;
-      }
-
-      .paper-desc {
-        margin-top: 10px;
-        font-size: 0.95rem;
-      }
-
-      .paper-links {
-        margin-top: 10px;
-        display: flex;
-        gap: 14px;
-        font-size: 0.9rem;
-        color: #4b5563;
-      }
-
-      .paper-links a:hover,
-      .section-header a:hover {
-        text-decoration: underline;
-        text-underline-offset: 3px;
-      }
-
-      .timeline-head {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 14px;
-      }
-
-      .timeline-role {
-        font-weight: 600;
-        font-size: 1.02rem;
-      }
-
-      .timeline-time {
-        color: var(--muted);
-        font-size: 0.9rem;
-      }
-
-      .timeline-org {
-        margin-top: 4px;
-        color: #4b5563;
-        font-size: 0.94rem;
-        font-weight: 600;
-      }
-
-      .timeline-desc {
-        margin-top: 10px;
-        font-size: 0.95rem;
-      }
-
-      .footer {
-        max-width: 1180px;
-        margin: 0 auto;
-        padding: 0 24px 44px;
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-
-      @media (max-width: 980px) {
-        .layout {
-          grid-template-columns: 1fr;
+    <script>
+      (function () {
+        try {
+          const key = 'theme';
+          const stored = localStorage.getItem(key);
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'dark' || (!stored && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (error) {
+          console.warn('Theme preference unavailable', error);
         }
-
-        .sidebar {
-          position: static;
-        }
-      }
-
-      @media (max-width: 720px) {
-        .nav {
-          display: none;
-        }
-
-        .topbar-inner,
-        .layout {
-          padding-left: 18px;
-          padding-right: 18px;
-        }
-
-        .section {
-          padding: 22px;
-        }
-
-        .news-item {
-          grid-template-columns: 1fr;
-          gap: 8px;
-        }
-
-        .section h2 {
-          font-size: 1.5rem;
-        }
-
-        .name {
-          font-size: 1.8rem;
-        }
-      }
-    </style>
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
   </head>
-  <body>
-    <header class="topbar">
-      <div class="topbar-inner">
-        <a class="brand" href="#top">Jiawei Wang</a>
-        <nav class="nav">
-          <a href="#about">About</a>
-          <a href="#news">News</a>
-          <a href="#research">Research</a>
-          <a href="#experience">Experience</a>
-        </nav>
-      </div>
-    </header>
-
-    <main id="top" class="layout">
-      <aside class="sidebar">
-        <div class="card">
-          <img class="profile-photo" src="images/profile.png" alt="Jiawei Wang" />
-          <div class="profile-body">
-            <h1 class="name">Jiawei Wang</h1>
-            <div class="title">Incoming Assistant Professor in Intelligent Transportation</div>
-            <div class="org">HKUST (Guangzhou)</div>
-
-            <div class="meta">
-              <p>Postdoctoral Researcher, The University of Tokyo</p>
-              <p>Visiting Scholar, CSIS, The University of Tokyo</p>
-              <p>AI for Transportation · Generative Intelligent Transportation</p>
-            </div>
-
-            <div class="keywords">
-              <strong>Research keywords</strong>
-              LLMs for Mobility · Flow Matching · Generative Traffic Simulation · Reinforcement Learning · Transit Control
-            </div>
-
-            <div class="links">
-              <a class="pill" href="https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ">Google Scholar</a>
-              <a class="pill" href="https://github.com/Wangjw6">GitHub</a>
-              <a class="pill" href="https://www.linkedin.com/in/its-jiawei-wang">LinkedIn</a>
-            </div>
+  <body class="bg-neutral-100 font-sans text-neutral-900 antialiased dark:bg-neutral-900 dark:text-neutral-100">
+    <div class="min-h-screen">
+      <header class="sticky top-0 z-20 border-b border-neutral-200 bg-white/90 backdrop-blur dark:border-neutral-800 dark:bg-neutral-950/80">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+          <a href="#top" class="text-lg font-semibold tracking-tight text-neutral-950 dark:text-neutral-100">Jiawei Wang</a>
+          <div class="flex items-center gap-4">
+            <nav class="hidden gap-6 text-sm text-neutral-600 md:flex dark:text-neutral-300">
+              <a href="#about" class="transition hover:text-neutral-950 dark:hover:text-white">About</a>
+              <a href="#news" class="transition hover:text-neutral-950 dark:hover:text-white">News</a>
+              <a href="#research" class="transition hover:text-neutral-950 dark:hover:text-white">Research</a>
+              <a href="#experience" class="transition hover:text-neutral-950 dark:hover:text-white">Experience</a>
+            </nav>
+            <button
+              id="theme-toggle"
+              type="button"
+              aria-pressed="false"
+              aria-label="Toggle color theme"
+              class="rounded-full border border-neutral-300 px-3 py-1.5 text-sm text-neutral-600 transition hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-800"
+            >
+              <span class="sr-only">Toggle color theme</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364 6.364-1.414-1.414M8.05 8.05 6.636 6.636m0 10.728 1.414-1.414M17.95 8.05l1.414-1.414M12 8a4 4 0 100 8 4 4 0 000-8z"
+                />
+              </svg>
+            </button>
           </div>
         </div>
-      </aside>
+      </header>
 
-      <div class="content">
-        <section id="about" class="section about">
-          <h2>About</h2>
-          <p>
-            Jiawei Wang is an incoming tenure-track Assistant Professor in Intelligent Transportation at the Systems Hub,
-            HKUST (Guangzhou), where he will join in May 2026. He is currently a Postdoctoral Researcher at the Graduate School
-            of Interdisciplinary Information Studies, The University of Tokyo, and a Visiting Scholar at the Center for Spatial
-            Information Science.
-          </p>
-          <p>
-            He received his Ph.D. in Civil Engineering from McGill University. Prior to that, he obtained his B.Eng. in
-            Transportation Engineering and M.Eng. in Traffic Information Engineering and Control from Sun Yat-sen University.
-          </p>
-          <p>
-            His research lies at the intersection of artificial intelligence and transportation systems, with a particular
-            interest in building an integrated scientific route from <strong>traffic generation</strong>, to
-            <strong>traffic cognition</strong>, and further to <strong>traffic control</strong>. He develops data-driven and
-            behaviorally grounded methods for mobility generation, generative traffic simulation, and public transportation
-            optimization.
-          </p>
+      <main id="top" class="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-10 lg:grid-cols-[320px_minmax(0,1fr)] lg:px-8">
+        <aside class="lg:sticky lg:top-24 lg:self-start">
+          <div class="overflow-hidden rounded-3xl border border-neutral-200 bg-white shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <img src="/个人图片.png" alt="Jiawei Wang portrait" class="aspect-[4/5] w-full object-cover object-center" />
+            <div class="space-y-5 p-6">
+              <div>
+                <h1 class="text-3xl font-bold tracking-tight text-neutral-950 dark:text-white">Jiawei Wang</h1>
+                <p class="mt-2 text-base text-neutral-700 dark:text-neutral-300">Incoming Assistant Professor in Intelligent Transportation</p>
+                <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">HKUST (Guangzhou)</p>
+              </div>
+
+              <div class="space-y-2 text-sm leading-6 text-neutral-600 dark:text-neutral-300">
+                <p>Postdoctoral Researcher, The University of Tokyo</p>
+                <p>Visiting Scholar, CSIS, The University of Tokyo</p>
+                <p>AI for Transportation · Generative Intelligent Transportation</p>
+              </div>
+
+              <div class="rounded-2xl bg-neutral-50 p-4 text-sm leading-6 text-neutral-700 dark:bg-neutral-800 dark:text-neutral-200">
+                <p class="font-medium text-neutral-950 dark:text-white">Research keywords</p>
+                <p class="mt-2">
+                  LLMs for Mobility · Flow Matching · Generative Traffic Simulation · Reinforcement Learning · Transit Control
+                </p>
+              </div>
+
+              <div class="flex flex-wrap gap-2 text-sm">
+                <a
+                  class="rounded-full border border-neutral-300 px-3 py-1.5 text-neutral-700 transition hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-800"
+                  href="https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ"
+                >
+                  Google Scholar
+                </a>
+                <a
+                  class="rounded-full border border-neutral-300 px-3 py-1.5 text-neutral-700 transition hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-800"
+                  href="https://github.com/Wangjw6"
+                >
+                  GitHub
+                </a>
+                <a
+                  class="rounded-full border border-neutral-300 px-3 py-1.5 text-neutral-700 transition hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-800"
+                  href="https://www.linkedin.com/in/its-jiawei-wang"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <section class="space-y-12">
+          <section id="about" class="rounded-3xl border border-neutral-200 bg-white p-8 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <h2 class="text-2xl font-semibold tracking-tight text-neutral-950 dark:text-white">About</h2>
+            <div class="mt-5 space-y-4 text-[15px] leading-7 text-neutral-700 dark:text-neutral-300">
+              <p>
+                Jiawei Wang is an incoming tenure-track Assistant Professor in Intelligent Transportation at the Systems Hub, HKUST (Guangzhou), where he will join in May 2026. He is currently a Postdoctoral Researcher at the Graduate School of Interdisciplinary Information Studies, The University of Tokyo, and a Visiting Scholar at the Center for Spatial Information Science.
+              </p>
+              <p>
+                He received his Ph.D. in Civil Engineering from McGill University. Prior to that, he obtained his B.Eng. in Transportation Engineering and M.Eng. in Traffic Information Engineering and Control from Sun Yat-sen University.
+              </p>
+              <p>
+                His research lies at the intersection of artificial intelligence and transportation systems, with a particular interest in building an integrated scientific route from <span class="font-medium text-neutral-950 dark:text-white">traffic generation</span>, to <span class="font-medium text-neutral-950 dark:text-white">traffic cognition</span>, and further to <span class="font-medium text-neutral-950 dark:text-white">traffic control</span>. He develops data-driven and behaviorally grounded methods for mobility generation, generative traffic simulation, and public transportation optimization.
+              </p>
+            </div>
+          </section>
+
+          <section id="news" class="rounded-3xl border border-neutral-200 bg-white p-8 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <div class="flex items-center justify-between gap-4">
+              <h2 class="text-2xl font-semibold tracking-tight text-neutral-950 dark:text-white">News</h2>
+              <span class="text-sm text-neutral-500 dark:text-neutral-400">Selected updates</span>
+            </div>
+            <div class="mt-6 space-y-4">
+              <div class="flex gap-4 rounded-2xl border border-neutral-100 p-4 dark:border-neutral-800">
+                <div class="min-w-[84px] text-sm font-medium text-neutral-500 dark:text-neutral-400">[2026-05]</div>
+                <p class="text-[15px] leading-7 text-neutral-700 dark:text-neutral-300">Joining HKUST(GZ) as a tenure-track Assistant Professor in Intelligent Transportation.</p>
+              </div>
+              <div class="flex gap-4 rounded-2xl border border-neutral-100 p-4 dark:border-neutral-800">
+                <div class="min-w-[84px] text-sm font-medium text-neutral-500 dark:text-neutral-400">[2026-01]</div>
+                <p class="text-[15px] leading-7 text-neutral-700 dark:text-neutral-300">Two papers accepted to ICLR 2026: ELLMob and TrajFlow.</p>
+              </div>
+              <div class="flex gap-4 rounded-2xl border border-neutral-100 p-4 dark:border-neutral-800">
+                <div class="min-w-[84px] text-sm font-medium text-neutral-500 dark:text-neutral-400">[2024-12]</div>
+                <p class="text-[15px] leading-7 text-neutral-700 dark:text-neutral-300">Our paper on LLM agents for personal mobility generation was presented at NeurIPS 2024.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="research" class="rounded-3xl border border-neutral-200 bg-white p-8 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <div class="flex items-center justify-between gap-4">
+              <h2 class="text-2xl font-semibold tracking-tight text-neutral-950 dark:text-white">Research</h2>
+              <a
+                href="https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ&view_op=list_works&sortby=pubdate"
+                class="text-sm text-neutral-500 transition hover:text-neutral-950 dark:text-neutral-400 dark:hover:text-white"
+              >
+                Full publication list
+              </a>
+            </div>
+            <div class="mt-8 space-y-8">
+              <section class="rounded-2xl border border-neutral-100 p-6 dark:border-neutral-800">
+                <h3 class="text-xl font-semibold tracking-tight text-neutral-950 dark:text-white">Mobility Generation and Cognition with Foundation Models</h3>
+                <p class="mt-2 text-[15px] leading-7 text-neutral-600 dark:text-neutral-300">Large language models for human mobility generation, event-aware behavior modeling, and urban cognition.</p>
+                <div class="mt-5 space-y-4">
+                  <article class="rounded-2xl bg-neutral-50 p-5 dark:bg-neutral-800">
+                    <h4 class="text-lg font-medium leading-7 text-neutral-950 dark:text-white">Large language models as urban residents: An LLM agent framework for personal mobility generation</h4>
+                    <p class="mt-1 text-sm font-medium text-neutral-500 dark:text-neutral-400">NeurIPS 2024</p>
+                    <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">Jiawei Wang, et al.</p>
+                    <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Behaviorally grounded LLM agents for simulating personal mobility in cities.</p>
+                    <div class="mt-4 flex flex-wrap gap-3 text-sm text-neutral-600 dark:text-neutral-300">
+                      <a href="#" class="underline underline-offset-4">PDF</a>
+                      <a href="#" class="underline underline-offset-4">Code</a>
+                      <a href="#" class="underline underline-offset-4">BibTeX</a>
+                    </div>
+                  </article>
+                  <article class="rounded-2xl bg-neutral-50 p-5 dark:bg-neutral-800">
+                    <h4 class="text-lg font-medium leading-7 text-neutral-950 dark:text-white">ELLMob: Event-Driven Human Mobility Generation with Self-Aligned LLM Framework</h4>
+                    <p class="mt-1 text-sm font-medium text-neutral-500 dark:text-neutral-400">ICLR 2026</p>
+                    <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">Jiawei Wang, et al.</p>
+                    <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">An event-aware self-aligned LLM framework for human mobility generation under dynamic urban contexts.</p>
+                    <div class="mt-4 flex flex-wrap gap-3 text-sm text-neutral-600 dark:text-neutral-300">
+                      <a href="#" class="underline underline-offset-4">PDF</a>
+                      <a href="#" class="underline underline-offset-4">Code</a>
+                      <a href="#" class="underline underline-offset-4">BibTeX</a>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section class="rounded-2xl border border-neutral-100 p-6 dark:border-neutral-800">
+                <h3 class="text-xl font-semibold tracking-tight text-neutral-950 dark:text-white">Generative Modeling for Traffic Simulation</h3>
+                <p class="mt-2 text-[15px] leading-7 text-neutral-600 dark:text-neutral-300">Generative AI methods for traffic simulation, trajectory synthesis, and transportation system modeling.</p>
+                <div class="mt-5 space-y-4">
+                  <article class="rounded-2xl bg-neutral-50 p-5 dark:bg-neutral-800">
+                    <h4 class="text-lg font-medium leading-7 text-neutral-950 dark:text-white">TrajFlow: Nation-wide Pseudo GPS Trajectory Generation with Flow Matching Models</h4>
+                    <p class="mt-1 text-sm font-medium text-neutral-500 dark:text-neutral-400">ICLR 2026</p>
+                    <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">Jiawei Wang, et al.</p>
+                    <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">A flow matching framework for large-scale pseudo GPS trajectory generation at national scale.</p>
+                    <div class="mt-4 flex flex-wrap gap-3 text-sm text-neutral-600 dark:text-neutral-300">
+                      <a href="#" class="underline underline-offset-4">PDF</a>
+                      <a href="#" class="underline underline-offset-4">Code</a>
+                      <a href="#" class="underline underline-offset-4">BibTeX</a>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section class="rounded-2xl border border-neutral-100 p-6 dark:border-neutral-800">
+                <h3 class="text-xl font-semibold tracking-tight text-neutral-950 dark:text-white">Reinforcement Learning for Public Transportation Control</h3>
+                <p class="mt-2 text-[15px] leading-7 text-neutral-600 dark:text-neutral-300">Learning-based control and optimization for bus operations, transit reliability, and coordinated mobility systems.</p>
+                <div class="mt-5 space-y-4">
+                  <article class="rounded-2xl bg-neutral-50 p-5 dark:bg-neutral-800">
+                    <h4 class="text-lg font-medium leading-7 text-neutral-950 dark:text-white">Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework</h4>
+                    <p class="mt-1 text-sm font-medium text-neutral-500 dark:text-neutral-400">Transportation Research Part C 2020</p>
+                    <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">Jiawei Wang, et al.</p>
+                    <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">A multi-agent deep RL framework for adaptive bus holding control.</p>
+                    <div class="mt-4 flex flex-wrap gap-3 text-sm text-neutral-600 dark:text-neutral-300">
+                      <a href="#" class="underline underline-offset-4">PDF</a>
+                      <a href="#" class="underline underline-offset-4">Code</a>
+                      <a href="#" class="underline underline-offset-4">BibTeX</a>
+                    </div>
+                  </article>
+                  <article class="rounded-2xl bg-neutral-50 p-5 dark:bg-neutral-800">
+                    <h4 class="text-lg font-medium leading-7 text-neutral-950 dark:text-white">Reducing bus bunching with asynchronous multi-agent reinforcement learning</h4>
+                    <p class="mt-1 text-sm font-medium text-neutral-500 dark:text-neutral-400">IJCAI 2021</p>
+                    <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">Jiawei Wang, et al.</p>
+                    <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Asynchronous multi-agent reinforcement learning for robust bus bunching mitigation.</p>
+                    <div class="mt-4 flex flex-wrap gap-3 text-sm text-neutral-600 dark:text-neutral-300">
+                      <a href="#" class="underline underline-offset-4">PDF</a>
+                      <a href="#" class="underline underline-offset-4">Code</a>
+                      <a href="#" class="underline underline-offset-4">BibTeX</a>
+                    </div>
+                  </article>
+                  <article class="rounded-2xl bg-neutral-50 p-5 dark:bg-neutral-800">
+                    <h4 class="text-lg font-medium leading-7 text-neutral-950 dark:text-white">Robust dynamic bus control: A distributional multi-agent reinforcement learning approach</h4>
+                    <p class="mt-1 text-sm font-medium text-neutral-500 dark:text-neutral-400">IEEE TITS 2022</p>
+                    <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">Jiawei Wang, et al.</p>
+                    <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Distributional multi-agent RL for robust transit control under uncertainty.</p>
+                    <div class="mt-4 flex flex-wrap gap-3 text-sm text-neutral-600 dark:text-neutral-300">
+                      <a href="#" class="underline underline-offset-4">PDF</a>
+                      <a href="#" class="underline underline-offset-4">Code</a>
+                      <a href="#" class="underline underline-offset-4">BibTeX</a>
+                    </div>
+                  </article>
+                  <article class="rounded-2xl bg-neutral-50 p-5 dark:bg-neutral-800">
+                    <h4 class="text-lg font-medium leading-7 text-neutral-950 dark:text-white">Multi-objective multi-agent deep reinforcement learning to reduce bus bunching for multi-line services with a shared corridor</h4>
+                    <p class="mt-1 text-sm font-medium text-neutral-500 dark:text-neutral-400">Transportation Research Part C 2023</p>
+                    <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">Jiawei Wang, et al.</p>
+                    <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Multi-objective RL for coordinated control in multi-line bus systems.</p>
+                    <div class="mt-4 flex flex-wrap gap-3 text-sm text-neutral-600 dark:text-neutral-300">
+                      <a href="#" class="underline underline-offset-4">PDF</a>
+                      <a href="#" class="underline underline-offset-4">Code</a>
+                      <a href="#" class="underline underline-offset-4">BibTeX</a>
+                    </div>
+                  </article>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section id="experience" class="rounded-3xl border border-neutral-200 bg-white p-8 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <h2 class="text-2xl font-semibold tracking-tight text-neutral-950 dark:text-white">Experience</h2>
+            <div class="mt-6 space-y-5">
+              <div class="rounded-2xl border border-neutral-100 p-5 dark:border-neutral-800">
+                <div class="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+                  <h3 class="text-lg font-semibold text-neutral-950 dark:text-white">Incoming Assistant Professor</h3>
+                  <p class="text-sm text-neutral-500 dark:text-neutral-400">May 2026 &ndash; Future</p>
+                </div>
+                <p class="mt-1 text-sm font-medium text-neutral-600 dark:text-neutral-300">HKUST (Guangzhou)</p>
+                <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Building a research program on Generative Intelligent Transportation.</p>
+              </div>
+              <div class="rounded-2xl border border-neutral-100 p-5 dark:border-neutral-800">
+                <div class="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+                  <h3 class="text-lg font-semibold text-neutral-950 dark:text-white">Postdoctoral Researcher</h3>
+                  <p class="text-sm text-neutral-500 dark:text-neutral-400">2023 &ndash; Present</p>
+                </div>
+                <p class="mt-1 text-sm font-medium text-neutral-600 dark:text-neutral-300">Graduate School of Interdisciplinary Information Studies, The University of Tokyo</p>
+                <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Research on AI for transportation, mobility generation, and traffic simulation.</p>
+              </div>
+              <div class="rounded-2xl border border-neutral-100 p-5 dark:border-neutral-800">
+                <div class="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+                  <h3 class="text-lg font-semibold text-neutral-950 dark:text-white">Visiting Scholar</h3>
+                  <p class="text-sm text-neutral-500 dark:text-neutral-400">2023 &ndash; Present</p>
+                </div>
+                <p class="mt-1 text-sm font-medium text-neutral-600 dark:text-neutral-300">Center for Spatial Information Science, The University of Tokyo</p>
+                <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Research on urban mobility intelligence and spatial data-driven transport modeling.</p>
+              </div>
+              <div class="rounded-2xl border border-neutral-100 p-5 dark:border-neutral-800">
+                <div class="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+                  <h3 class="text-lg font-semibold text-neutral-950 dark:text-white">Ph.D. in Civil Engineering</h3>
+                  <p class="text-sm text-neutral-500 dark:text-neutral-400">2019 &ndash; 2023</p>
+                </div>
+                <p class="mt-1 text-sm font-medium text-neutral-600 dark:text-neutral-300">McGill University</p>
+                <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Transportation systems, reinforcement learning, and mobility operations.</p>
+              </div>
+              <div class="rounded-2xl border border-neutral-100 p-5 dark:border-neutral-800">
+                <div class="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+                  <h3 class="text-lg font-semibold text-neutral-950 dark:text-white">M.Eng. in Traffic Information Engineering and Control</h3>
+                  <p class="text-sm text-neutral-500 dark:text-neutral-400">2016 &ndash; 2019</p>
+                </div>
+                <p class="mt-1 text-sm font-medium text-neutral-600 dark:text-neutral-300">Sun Yat-sen University</p>
+                <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Transportation data analysis and intelligent transportation systems.</p>
+              </div>
+              <div class="rounded-2xl border border-neutral-100 p-5 dark:border-neutral-800">
+                <div class="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+                  <h3 class="text-lg font-semibold text-neutral-950 dark:text-white">B.Eng. in Transportation Engineering</h3>
+                  <p class="text-sm text-neutral-500 dark:text-neutral-400">2012 &ndash; 2016</p>
+                </div>
+                <p class="mt-1 text-sm font-medium text-neutral-600 dark:text-neutral-300">Sun Yat-sen University</p>
+                <p class="mt-3 text-[15px] leading-7 text-neutral-700 dark:text-neutral-200">Foundations in transportation engineering and systems analysis.</p>
+              </div>
+            </div>
+          </section>
         </section>
+      </main>
 
-        <section id="news" class="section">
-          <div class="section-header">
-            <h2>News</h2>
-            <div class="section-note">Selected updates</div>
-          </div>
-          <div class="news-list">
-            <div class="news-item">
-              <div class="date">[2026-05]</div>
-              <p>Joining HKUST(GZ) as a tenure-track Assistant Professor in Intelligent Transportation.</p>
-            </div>
-            <div class="news-item">
-              <div class="date">[2026-01]</div>
-              <p>Two papers accepted to ICLR 2026: <em>ELLMob</em> and <em>TrajFlow</em>.</p>
-            </div>
-            <div class="news-item">
-              <div class="date">[2024-12]</div>
-              <p>Our paper on LLM agents for personal mobility generation was presented at NeurIPS 2024.</p>
-            </div>
-          </div>
-        </section>
+      <footer class="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
+        <div class="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-6 text-sm text-neutral-500 lg:flex-row lg:items-center lg:justify-between lg:px-8 dark:text-neutral-400">
+          <p>&copy; <span id="current-year"></span> Jiawei Wang. All rights reserved.</p>
+          <p>Built with Tailwind CSS, deployed via GitHub Pages, and now theme-aware.</p>
+        </div>
+      </footer>
+    </div>
 
-        <section id="research" class="section">
-          <div class="section-header">
-            <h2>Research</h2>
-            <a class="section-note" href="https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ&view_op=list_works&sortby=pubdate">Full publication list</a>
-          </div>
-
-          <div class="research-groups">
-            <div class="group">
-              <h3>Mobility Generation and Cognition with Foundation Models</h3>
-              <div class="group-subtitle">
-                Large language models for human mobility generation, event-aware behavior modeling, and urban cognition.
-              </div>
-              <div class="papers">
-                <div class="paper">
-                  <div class="paper-title">Large language models as urban residents: An LLM agent framework for personal mobility generation</div>
-                  <div class="paper-venue">NeurIPS 2024</div>
-                  <div class="paper-authors">Jiawei Wang, et al.</div>
-                  <p class="paper-desc">Behaviorally grounded LLM agents for simulating personal mobility in cities.</p>
-                  <div class="paper-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
-                </div>
-                <div class="paper">
-                  <div class="paper-title">ELLMob: Event-Driven Human Mobility Generation with Self-Aligned LLM Framework</div>
-                  <div class="paper-venue">ICLR 2026</div>
-                  <div class="paper-authors">Jiawei Wang, et al.</div>
-                  <p class="paper-desc">An event-aware self-aligned LLM framework for human mobility generation under dynamic urban contexts.</p>
-                  <div class="paper-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="group">
-              <h3>Generative Modeling for Traffic Simulation</h3>
-              <div class="group-subtitle">
-                Generative AI methods for traffic simulation, trajectory synthesis, and transportation system modeling.
-              </div>
-              <div class="papers">
-                <div class="paper">
-                  <div class="paper-title">TrajFlow: Nation-wide Pseudo GPS Trajectory Generation with Flow Matching Models</div>
-                  <div class="paper-venue">ICLR 2026</div>
-                  <div class="paper-authors">Jiawei Wang, et al.</div>
-                  <p class="paper-desc">A flow matching framework for large-scale pseudo GPS trajectory generation at national scale.</p>
-                  <div class="paper-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
-                </div>
-                <div class="paper">
-                  <div class="paper-title">Traffic speed prediction for urban transportation network: A path-based deep learning approach</div>
-                  <div class="paper-venue">Transportation Research Part C 2019</div>
-                  <div class="paper-authors">Jiawei Wang, et al.</div>
-                  <p class="paper-desc">A path-based deep learning approach for network-level urban traffic state modeling.</p>
-                  <div class="paper-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
-                </div>
-                <div class="paper">
-                  <div class="paper-title">Understanding the daily operations of electric taxis: From macro-patterns to micro-behaviors</div>
-                  <div class="paper-venue">Transportation Research Part D 2024</div>
-                  <div class="paper-authors">Jiawei Wang, et al.</div>
-                  <p class="paper-desc">A data-driven analysis of electric taxi operations from citywide patterns to fine-grained behavioral dynamics.</p>
-                  <div class="paper-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="group">
-              <h3>Reinforcement Learning for Public Transportation Control</h3>
-              <div class="group-subtitle">
-                Learning-based control and optimization for bus operations, transit reliability, and coordinated mobility systems.
-              </div>
-              <div class="papers">
-                <div class="paper">
-                  <div class="paper-title">Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework</div>
-                  <div class="paper-venue">Transportation Research Part C 2020</div>
-                  <div class="paper-authors">Jiawei Wang, et al.</div>
-                  <p class="paper-desc">A multi-agent deep RL framework for adaptive bus holding control.</p>
-                  <div class="paper-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
-                </div>
-                <div class="paper">
-                  <div class="paper-title">Reducing bus bunching with asynchronous multi-agent reinforcement learning</div>
-                  <div class="paper-venue">IJCAI 2021</div>
-                  <div class="paper-authors">Jiawei Wang, et al.</div>
-                  <p class="paper-desc">Asynchronous multi-agent reinforcement learning for robust bus bunching mitigation.</p>
-                  <div class="paper-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
-                </div>
-                <div class="paper">
-                  <div class="paper-title">Robust dynamic bus control: A distributional multi-agent reinforcement learning approach</div>
-                  <div class="paper-venue">IEEE TITS 2022</div>
-                  <div class="paper-authors">Jiawei Wang, et al.</div>
-                  <p class="paper-desc">Distributional multi-agent RL for robust transit control under uncertainty.</p>
-                  <div class="paper-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
-                </div>
-                <div class="paper">
-                  <div class="paper-title">Multi-objective multi-agent deep reinforcement learning to reduce bus bunching for multi-line services with a shared corridor</div>
-                  <div class="paper-venue">Transportation Research Part C 2023</div>
-                  <div class="paper-authors">Jiawei Wang, et al.</div>
-                  <p class="paper-desc">Multi-objective RL for coordinated control in multi-line bus systems.</p>
-                  <div class="paper-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="experience" class="section">
-          <h2>Experience</h2>
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-head">
-                <div class="timeline-role">Incoming Assistant Professor</div>
-                <div class="timeline-time">May 2026 – Future</div>
-              </div>
-              <div class="timeline-org">HKUST (Guangzhou)</div>
-              <p class="timeline-desc">Building a research program on Generative Intelligent Transportation.</p>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-head">
-                <div class="timeline-role">Postdoctoral Researcher</div>
-                <div class="timeline-time">2023 – Present</div>
-              </div>
-              <div class="timeline-org">Graduate School of Interdisciplinary Information Studies, The University of Tokyo</div>
-              <p class="timeline-desc">Research on AI for transportation, mobility generation, and traffic simulation.</p>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-head">
-                <div class="timeline-role">Visiting Scholar</div>
-                <div class="timeline-time">2023 – Present</div>
-              </div>
-              <div class="timeline-org">Center for Spatial Information Science, The University of Tokyo</div>
-              <p class="timeline-desc">Research on urban mobility intelligence and spatial data-driven transport modeling.</p>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-head">
-                <div class="timeline-role">Ph.D. in Civil Engineering</div>
-                <div class="timeline-time">2019 – 2023</div>
-              </div>
-              <div class="timeline-org">McGill University</div>
-              <p class="timeline-desc">Transportation systems, reinforcement learning, and mobility operations.</p>
-            </div>
-          </div>
-        </section>
-      </div>
-    </main>
-
-    <footer class="footer">
-      © Jiawei Wang · Hosted on GitHub Pages
-    </footer>
+    <script>
+      (function () {
+        const key = 'theme';
+        const root = document.documentElement;
+        const btn = document.getElementById('theme-toggle');
+        const yearEl = document.getElementById('current-year');
+        if (yearEl) {
+          yearEl.textContent = new Date().getFullYear();
+        }
+        if (!btn) {
+          return;
+        }
+        const sunIcon = `
+          <span class="sr-only">Switch to dark mode</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364 6.364-1.414-1.414M8.05 8.05 6.636 6.636m0 10.728 1.414-1.414M17.95 8.05l1.414-1.414M12 8a4 4 0 100 8 4 4 0 000-8z" />
+          </svg>
+        `;
+        const moonIcon = `
+          <span class="sr-only">Switch to light mode</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 14.5A8.5 8.5 0 1111.5 5a6 6 0 009.5 9.5z" />
+          </svg>
+        `;
+        const updateButton = () => {
+          const dark = root.classList.contains('dark');
+          const label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+          btn.innerHTML = dark ? moonIcon : sunIcon;
+          btn.setAttribute('aria-pressed', String(dark));
+          btn.setAttribute('aria-label', label);
+          btn.setAttribute('title', label);
+        };
+        updateButton();
+        btn.addEventListener('click', () => {
+          const isDark = root.classList.toggle('dark');
+          try {
+            localStorage.setItem(key, isDark ? 'dark' : 'light');
+          } catch (error) {
+            console.warn('Theme preference unavailable', error);
+          }
+          updateButton();
+        });
+      })();
+    </script>
   </body>
 </html>
