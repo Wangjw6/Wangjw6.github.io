@@ -41,8 +41,6 @@ My research in reinforcement learning, especially multi-agent RL, addresses real
 - <b>Reducing bus bunching with asynchronous multi-agent reinforcement learning.</b> <i>IJCAI</i>, 2021.
 - <b>Robust dynamic bus control: A distributional multi-agent reinforcement learning approach.</b> <i>IEEE Transactions on Intelligent Transportation Systems</i>, 2022.
 - <b>Multi-objective multi-agent deep reinforcement learning to reduce bus bunching for multi-line services with a shared corridor.</b> <i>Transportation Research Part C</i>, 2023.
-- <b>MERCI: Multi-agent reinforcement learning for enhancing on-demand electric taxi operations.</b> <i>Computers & Industrial Engineering</i>, 2024.
-- <b>Multi-agent graph reinforcement learning for connected automated driving.</b> <i>ICML AI for Autonomous Driving Workshop</i>, 2020.
 
 ## Collaborations & Initiatives
 
