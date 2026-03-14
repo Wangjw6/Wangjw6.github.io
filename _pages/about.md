@@ -8,35 +8,34 @@ redirect_from:
   - /about.html
 ---
 
-Jiawei Wang is an incoming tenure-track Assistant Professor in Intelligent Transportation at the Systems Hub, [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/), where he will join in May 2026. He is currently a postdoctoral researcher at the Graduate School of Interdisciplinary Information Studies, [The University of Tokyo](https://www.iii.u-tokyo.ac.jp/en/), and also serves as a Visiting Scholar at the [Center for Spatial Information Science (CSIS), The University of Tokyo](http://www.csis.u-tokyo.ac.jp/english/).
+Jiawei Wang is an incoming tenure-track Assistant Professor of Intelligent Transportation at the Systems Hub, [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/), where he will begin in May 2026. He is currently a postdoctoral researcher at the Graduate School of Interdisciplinary Information Studies at [The University of Tokyo](https://www.iii.u-tokyo.ac.jp/en/) and a Visiting Scholar at the [Center for Spatial Information Science](http://www.csis.u-tokyo.ac.jp/english/).
 
-He received his Ph.D. in Civil Engineering from [McGill University](https://www.mcgill.ca/engineering/), supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, he obtained his B.Eng. in Transportation Engineering in 2016 and his M.Eng. in Traffic Information Engineering and Control in 2019 from Sun Yat-sen University.
+## Professional Snapshot
 
-His research lies at the intersection of artificial intelligence and transportation systems. He is particularly interested in building an integrated scientific route from **traffic generation**, to **traffic cognition**, and further to **traffic control**. More broadly, his goal is to develop next-generation intelligent transportation paradigms that combine multimodal mobility data, generative modeling, behavioral intelligence, and system optimization. His work has been published in venues such as *Transportation Research Part C*, *IEEE Transactions on Intelligent Transportation Systems (TITS)*, *NeurIPS*, and *ICLR*, with over 1100 citations on Google Scholar.
+- **Current appointments**: Postdoctoral Researcher at The University of Tokyo; Visiting Scholar at CSIS
+- **Upcoming role**: Assistant Professor, Intelligent Transportation, HKUST(GZ)
+- **Education**: Ph.D. in Civil Engineering, [McGill University](https://www.mcgill.ca/engineering/) (advisor: [Prof. Lijun Sun](https://lijunsun.github.io/)); B.Eng. & M.Eng., Transportation Engineering, Sun Yat-sen University
+- **Research impact**: 1100+ citations; publications in *Transportation Research Part C*, *IEEE T-ITS*, *NeurIPS*, *ICLR*, and related venues
 
-## Research Focus
+## Research Vision
 
-My research focuses on AI for transportation, with a particular emphasis on connecting **generation**, **understanding**, and **control** in complex urban mobility systems. Current directions include:
+I build integrated AI-driven transportation systems that connect **traffic generation**, **traffic cognition**, and **traffic control**. My long-term goal is to develop deployable, behaviorally grounded tools that use multimodal mobility data, generative modeling, behavioral intelligence, and system optimization to support resilient, equitable, and efficient urban mobility.
 
-- Large language model driven mobility behavior generation and cognition
-- Generative modeling for traffic simulation and transportation system modeling
-- Reinforcement learning for public transportation control and mobility optimization
+## Research Pillars
 
-## Research Themes
-
-### Traffic Generation and Cognition with Foundation Models
-I am interested in how large language models and other foundation models can represent, simulate, and understand human mobility behaviors in cities. This line of work aims to develop behaviorally grounded AI agents for urban systems, enabling both realistic mobility generation and deeper insights into travel decision-making.
+### Traffic Generation & Cognition with Foundation Models
+I study how large language models and other foundation models can encode, explain, and predict human mobility behaviors. This work enables behaviorally faithful agents for urban planning scenarios and creates new ways to interrogate travel decision-making.
 
 - <b>Large language models as urban residents: An LLM agent framework for personal mobility generation.</b> <i>NeurIPS</i>, 2024.
 - <b>ELLMob: Event-Driven Human Mobility Generation with Self-Aligned LLM Framework.</b> <i>ICLR</i>, 2026.
 
 ### Generative Modeling for Traffic Simulation
-My work foucs on generative AI methods for transportation system modeling, with the goal of building scalable and realistic simulation frameworks for urban mobility. My interests include trajectory generation, traffic state generation, and generative traffic simulation using modern generative models such as flow matching, diffusion-style models, and large language models.
+I design generative AI methods (flow matching, diffusion, and language-based models) to simulate mobility trajectories and system states at scale, producing realistic, controllable environments for policy evaluation.
 
 - <b>TrajFlow: Nation-wide Pseudo GPS Trajectory Generation with Flow Matching Models.</b> <i>ICLR</i>, 2026.
 
 ### Reinforcement Learning for Public Transportation Control
-My work explores reinforcement learning, especially multi-agent reinforcement learning, for control and optimization in public transportation and mobility systems. I am interested in bridging algorithmic innovation with real operational challenges such as bus bunching, service reliability, and fleet coordination.
+My research in reinforcement learning, especially multi-agent RL, addresses real operational challenges such as bus bunching, service reliability, and resource allocation.
 
 - <b>Dynamic holding control to avoid bus bunching: A multi-agent deep reinforcement learning framework.</b> <i>Transportation Research Part C</i>, 2020.
 - <b>Reducing bus bunching with asynchronous multi-agent reinforcement learning.</b> <i>IJCAI</i>, 2021.
@@ -45,11 +44,11 @@ My work explores reinforcement learning, especially multi-agent reinforcement le
 - <b>MERCI: Multi-agent reinforcement learning for enhancing on-demand electric taxi operations.</b> <i>Computers & Industrial Engineering</i>, 2024.
 - <b>Multi-agent graph reinforcement learning for connected automated driving.</b> <i>ICML AI for Autonomous Driving Workshop</i>, 2020.
 
-## Vision
+## Collaborations & Initiatives
 
-At HKUST(GZ), I am building a research program around **Generative Intelligent Transportation**, with the long-term goal of developing a unified framework that integrates mobility generation, traffic cognition, and transportation control. I am broadly interested in creating deployable AI systems for cities and transit agencies, and in advancing the scientific foundation of intelligent transportation through generative modeling, behavioral intelligence, and learning-based optimization.
+At HKUST(GZ), I am establishing the **Generative Intelligent Transportation Lab**, focusing on end-to-end mobility intelligence, from synthetic demand generation to adaptive control policies. I collaborate closely with transit agencies and urban data partners to ensure that foundational research translates into deployable technology.
 
-For a complete publication list, please visit my [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ&view_op=list_works&sortby=pubdate).
+For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ&view_op=list_works&sortby=pubdate).
 
 ## Contact
 
