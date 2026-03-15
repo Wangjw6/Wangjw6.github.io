@@ -1,4 +1,4 @@
----
+﻿---
 permalink: /about/
 title: "About me"
 excerpt: "About me"
@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Jiawei Wang is an incoming tenure-track Assistant Professor of Intelligent Transportation at the Systems Hub, [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/), where he will begin in May 2026. He is currently a postdoctoral researcher at the Graduate School of Interdisciplinary Information Studies at [The University of Tokyo](https://www.iii.u-tokyo.ac.jp/en/) and a Visiting Scholar at the [Center for Spatial Information Science](http://www.csis.u-tokyo.ac.jp/english/).
+I am an incoming tenure-track Assistant Professor of Intelligent Transportation at the Systems Hub, [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn/), where I will begin in May 2026. I am currently a postdoctoral researcher at the Graduate School of Interdisciplinary Information Studies at [The University of Tokyo](https://www.iii.u-tokyo.ac.jp/en/) and a Visiting Scholar at the [Center for Spatial Information Science](http://www.csis.u-tokyo.ac.jp/english/).
 
 ## Professional Snapshot
 
@@ -56,3 +56,5 @@ jiawei-dot-wang4-at-mail-dot-mcgill-dot-ca
 - [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=Y1gU9wYAAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/its-jiawei-wang)
 - [GitHub](https://github.com/Wangjw6)
+
+
